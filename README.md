@@ -1,28 +1,28 @@
-# Retos de Java
+# Java Challenges
 
-Colección de ejercicios y retos de programación en Java.
+Collection of programming exercises and challenges in Java.
 
-## Ejercicios incluidos
+## Included Exercises
 
-- **ArraySum.java** - Suma de elementos en un array
-- **BiggestNumber.java** - Encontrar el número más grande
-- **CountVocals.java** - Contar vocales en un string
-- **CountWord.java** - Contar palabras en un texto
-- **Palindrome.java** - Validar si una palabra es un palíndromo
-- **ReplaceChars.java** - Reemplazar caracteres en un string
-- **StringInReverse.java** - Invertir una cadena de texto
-- **TwoSum.java** - Encontrar dos números que sumen un objetivo
+- **ArraySum.java** - Sum of elements in an array
+- **BiggestNumber.java** - Find the largest number
+- **CountVocals.java** - Count vowels in a string
+- **CountWord.java** - Count words in text
+- **Palindrome.java** - Validate if a word is a palindrome
+- **ReplaceChars.java** - Replace characters in a string
+- **StringInReverse.java** - Reverse a string
+- **TwoSum.java** - Find two numbers that sum to a target
 
-## Cómo ejecutar
+## How to Run
 
 ```bash
-# Compilar
+# Compile
 javac src/main/java/*.java
 
-# Ejecutar (ejemplo)
-java -cp src/main/java NombreDelArchivo
+# Execute (example)
+java -cp src/main/java FileName
 ```
 
-## Requisitos
+## Requirements
 
-- Java 8 o superior
+- Java 8 or higher
