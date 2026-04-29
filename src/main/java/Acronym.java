@@ -28,11 +28,28 @@ public class Acronym {
         return concat;
     }
 
+    public static String acronymLastLetter(String[] word){
+
+        // variable to build the acronym from last letters
+        String concat = "";
+
+        // foreach cycle to iterate all the words
+        for (String string : word) {
+            // concatenates the last letter of each element
+            concat = concat + string.charAt(string.length() - 1);
+        }
+
+        // returns the acronym formed by last letters
+        return concat;
+    }
+
     public static void main(String[] args) {
         String[] wordsSpanish = {"Hoy", "Organizamos", "La", "Aventura", " ", "Más", "Universal", "Navegando", "Descubrimientos", "Océanos"};
         String[] wordsEnglish = {"Humans", "Explore", "Life", "Learning", "Over", " ", "Wonders", "Of", "Realms", "Lands", "Dreams"};
+        String[] lastWord = {"fish", "cake", "ball", "shell", "piano", " ", "match", "taco", "oval", "pizza"};
 
         System.out.println(acronym(wordsEnglish));
         System.out.println(acronymFor(wordsSpanish));
+        System.out.println(acronymLastLetter(lastWord));
     }
 }
